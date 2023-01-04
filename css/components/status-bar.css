@@ -40,7 +40,7 @@
 .status-bar__column:last-child span:nth-child(2) {
   font-size: 15px;
   font-weight: 300;
-  margin: 0px 0px 0px 2px;
+  margin: 0px 0px 0px 1px;
 }
 .status-bar__column:last-child .material-symbols-outlined:first-child {
   font-size: 15px;
