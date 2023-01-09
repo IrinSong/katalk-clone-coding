@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 2px 4px;
+  padding: 0 2px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -16,21 +16,22 @@
 }
 .status-bar__column:first-child .material-symbols-outlined:first-child {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-  font-size: 18px;
-  margin: 0px 3px;
+  font-size: 16px;
+  margin-left: 6px;
   transform: translateY(1px);
 }
 .status-bar__column:first-child span:nth-child(2) {
   font-weight: 300;
-  font-size: 15px;
-  margin-right: 6px;
+  font-size: 14px;
+  transform: translateY(1px);
+  margin: 0 6px 0 2px;
 }
 .status-bar__column:first-child .material-symbols-outlined {
-  font-size: 16px;
+  font-size: 15px;
   transform: translateY(-1px);
 }
 .status-bar__column:nth-child(2) {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -42,16 +43,15 @@
   align-items: center;
 }
 .status-bar__column:last-child span:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
-  margin: 0px 0px 0px 1px;
 }
 .status-bar__column:last-child .material-symbols-outlined:first-child {
-  font-size: 15px;
+  font-size: 14px;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
 }
 .status-bar__column:last-child .material-symbols-outlined:last-child {
-  font-size: 33px;
+  font-size: 30px;
   font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
   transform: rotate(180deg);
 }
