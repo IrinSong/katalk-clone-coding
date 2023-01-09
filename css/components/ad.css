@@ -1,16 +1,18 @@
 .ad-link {
   display: flex;
-  justify-content: center;
 }
 .ad-link__box {
-  position: relative;
-  top: 96px;
-  width: 90%;
-  box-sizing: border-box;
-  padding: 20px 30px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 85px 15px 0 15px;
+  padding: 10px 30px;
   background-color: #f1f1f1;
   border-radius: 3px;
+}
+.ad-link__text {
+  margin-right: 15px;
 }
 .ad-link__title {
   font-weight: 700;
@@ -24,9 +26,7 @@
   color: rgba(0, 0, 0, 0.4);
 }
 .ad-link__image {
-  position: absolute;
   height: 60px;
   width: 60px;
-  bottom: 12px;
-  right: 34px;
+  margin-left: 30px;
 }
