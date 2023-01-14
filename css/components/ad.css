@@ -6,13 +6,13 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  margin: 85px 25px 0 25px;
+  margin: 85px 15px 0 15px;
   padding: 10px 30px;
   background-color: #f1f1f1;
   border-radius: 3px;
 }
 .ad-link__text {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .ad-link__title {
   font-weight: 700;
@@ -28,5 +28,5 @@
 .ad-link__image {
   height: 60px;
   width: 60px;
-  margin-left: 30px;
+  margin-left: 25px;
 }
