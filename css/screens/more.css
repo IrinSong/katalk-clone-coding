@@ -1,0 +1,112 @@
+.more__wallet {
+  background-color: var(--yellow);
+  width: 92%;
+  margin-bottom: 15px;
+  padding: 14px 14px;
+}
+.more__wallet-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.more__wallet-wallet,
+.more__wallet-certification,
+.more__wallet-ad-title,
+.more__wallet-money-icon,
+.more__wallet-funtions {
+  display: flex;
+  align-items: center;
+}
+.more__wallet-wallet-title {
+  font-size: 19px;
+  font-weight: 600;
+}
+.more__wallet-wallet .material-symbols-outlined {
+  color: rgba(0, 0, 0, 0.4s);
+  font-size: 32px;
+  margin-left: -5px;
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
+}
+.more__wallet-certification .material-symbols-outlined {
+  font-size: 18px;
+  margin-right: 2px;
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 48;
+}
+.more__wallet-certification-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.more__wallet-ad-title .material-symbols-outlined {
+  font-size: 17px;
+  margin-right: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+.more__wallet-ad-title img {
+  width: 12px;
+  margin-right: 10px;
+}
+.more__wallet-ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 222);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+}
+.more__wallet-ad-text {
+  font-size: 15px;
+  font-weight: 500;
+}
+.more__wallet-ad .chevron_right {
+  font-size: 20px;
+  margin-right: -6px;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 48;
+}
+.more__wallet-money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px;
+}
+.more__wallet-money-icon .material-symbols-outlined {
+  font-size: 13px;
+  margin-right: 2px;
+  margin-bottom: -7px;
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+.more__wallet-money-icon-text {
+  font-weight: 700;
+  font-size: 17px;
+}
+.more__wallet-money-balance {
+  font-size: 16px;
+  font-weight: 600;
+}
+.more__wallet-funtion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  margin-bottom: 5px;
+}
+
+.more__wallet-funtion span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.more__wallet-funtion .material-symbols-outlined {
+  font-size: 18px;
+  margin-right: 3px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.more__wallet-funtions .divider {
+  width: 0.5px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 15px;
+}

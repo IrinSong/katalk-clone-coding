@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>카카오톡 친구 목록</title>
+    <title>카카오톡 친구</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,42 +38,44 @@
       <h1 class="screen-header__title">친구</h1>
       <div class="screen-header__icons">
         <span class="material-symbols-outlined"> search </span>
+        <span class="material-symbols-outlined"> person_add </span>
         <span class="material-symbols-outlined"> library_music </span>
-        <span class="material-symbols-outlined"> settings </span>
+        <a href="./setting.html"
+          ><span class="material-symbols-outlined"> settings </span></a
+        >
       </div>
     </header>
 
-    <a
-      class="ad-link"
-      href="https://www.kakao.com/event/wallet/hometax/2022/event.html?%E2%80%8Bt_src=pa"
-    >
-      <div class="ad-link__box">
-        <div class="ad-link__text">
-          <h3 class="ad-link__title">올해 연말정산도 톡으로 쉽게</h3>
-          <h5 class="ad-link__p">카카오 인증서로 간편하게 준비하기</h5>
-        </div>
-        <img
-          class="ad-link__image"
-          src="./images/ad/kakao-certification.png"
-          alt="kakao-certification"
-        />
-      </div>
-    </a>
-
     <main class="main-screen">
+      <a
+        class="ad-link"
+        href="https://www.kakao.com/event/wallet/hometax/2022/event.html?%E2%80%8Bt_src=pa"
+      >
+        <div class="ad-link__box">
+          <div class="ad-link__text">
+            <h3 class="ad-link__title">올해 연말정산도 톡으로 쉽게</h3>
+            <h5 class="ad-link__p">카카오 인증서로 간편하게 준비하기</h5>
+          </div>
+          <img
+            class="ad-link__image"
+            src="./images/ad/kakao-certification.png"
+            alt="kakao-certification"
+          />
+        </div>
+      </a>
       <div class="user-component">
         <div class="user-component__column">
           <img
             class="user-component__profile user-component__profile--xl"
-            src="./images/irin.jpeg"
+            src="./images/irin.png"
             alt=""
           />
           <div class="user-component__text">
             <h4 class="user-component__name user-component__name--xl">이린</h4>
             <!-- <h6 class="user-component__title">blabla</h6> -->
           </div>
+          <div class="user-component__column"></div>
         </div>
-        <div class="user-component__column"></div>
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
@@ -93,8 +95,8 @@
               </h4>
             </div>
           </div>
-          <div class="user-component__column-detail">
-            <span>92</span>
+          <div class="user-component__detail">
+            <span class="user-component__detail-number">92</span>
             <span class="material-symbols-outlined"> chevron_right </span>
           </div>
         </div>
@@ -117,12 +119,12 @@
           <span class="nav__notification">82</span>
         </li>
         <li class="nav__list">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="./find.html">
             <span class="material-symbols-outlined"> search </span></a
           >
         </li>
         <li class="nav__list">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="./more.html">
             <span class="material-symbols-outlined"> more_horiz </span></a
           >
           <div class="nav__dot"></div>

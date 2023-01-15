@@ -24,3 +24,13 @@
 .screen-header .material-symbols-outlined:last-child {
   margin-right: 0;
 }
+.header__dot {
+  position: absolute;
+  right: 27px;
+  top: 12px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: #e9533a;
+  z-index: 10;
+}
