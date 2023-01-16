@@ -1,3 +1,11 @@
+#login-body {
+  background-color: var(--yellow);
+}
+
+.status-bar-login {
+  background-color: var(--yellow);
+}
+
 .welcome-header {
   margin: 80px 0px;
   text-align: center;
@@ -30,11 +38,12 @@
   border: none;
   padding: 20px 0px;
   font-size: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: var(--yellow);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
 .login-form__input:focus {
-  border-color: hsl(53.04, 99.21%, 45.59%);
+  border-color: rgba(0, 0, 0, 0.8);
 }
 .login-form__btn {
   border: none;
@@ -43,9 +52,12 @@
   cursor: pointer;
   border-radius: 3px;
 }
+.login-form .login-form__btn {
+  color: white;
+}
 .login-form input:nth-child(3) {
   margin: 30px 0 10px 0;
-  background-color: var(--yellow);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .login-form__link {
   font-size: 13px;
