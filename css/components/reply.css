@@ -9,6 +9,8 @@
   align-items: center;
   padding: 4px 12px;
   box-shadow: -5px 0 15px -5px rgba(0, 0, 0, 0.2);
+  will-change: transform, opacity;
+  animation: fadein 0.7s ease-in-out;
 }
 .reply__column {
   display: flex;
@@ -41,7 +43,7 @@
   background-color: var(--yellow);
   border-style: none;
   border-radius: 50%;
-  right: 16px;
+  right: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,11 +58,17 @@
   font-size: 14px;
   border-style: none;
   border-radius: 14px;
-  border: 0.5px solid rgba(0, 0, 0, 0.1);
-  background-color: rgba(235, 235, 235);
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(225, 225, 225);
   padding: 0 9px;
 }
 .reply__column button .material-symbols-outlined {
   color: rgba(0, 0, 0, 0.9);
   font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
+}
+
+.reply input:focus {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(235, 235, 235);
+  transition: all 0.2s ease-in-out;
 }

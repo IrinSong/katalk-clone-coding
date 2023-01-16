@@ -24,9 +24,22 @@
 .screen-header .material-symbols-outlined:last-child {
   margin-right: 0;
 }
+
+.screen-header .material-symbols-outlined:last-child:hover {
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .header__dot {
   position: absolute;
-  right: 27px;
+  right: 23px;
   top: 12px;
   height: 4px;
   width: 4px;
