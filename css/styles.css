@@ -6,6 +6,7 @@
 @import "./components/scree-header.css";
 @import "./components/ad.css";
 @import "./components/user-component.css";
+@import "./components/reply.css";
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";

@@ -5,6 +5,9 @@
 .settings-list:last-child {
   border-bottom: none;
 }
+.settings-list .settings__setting:last-child {
+  border-bottom: none;
+}
 .settings__setting {
   display: flex;
   justify-content: space-between;
