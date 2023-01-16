@@ -21,12 +21,6 @@
   font-size: 30px;
   font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 200, "opsz" 48;
 }
-.nav__list:nth-child(1) .material-symbols-outlined {
-  font-size: 33px;
-}
-.nav__list:nth-child(2) .material-symbols-outlined {
-  font-size: 27px;
-}
 .nav__list .filled-icon {
   font-variation-settings: "FILL" 1, "wght" 700, "GRAD" -25, "opsz" 48;
 }
@@ -41,8 +35,8 @@
   font-size: 11px;
   font-weight: 300;
   position: absolute;
-  left: 14px;
-  bottom: 16px;
+  left: 20px;
+  bottom: 17px;
   z-index: 10;
 }
 .nav__dot {
